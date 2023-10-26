@@ -1,0 +1,68 @@
+.form {
+    width: 500px;
+    border-radius: 20px;
+    height: 115vh;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.alert {
+    text-align: center;
+    display: none;
+}
+
+.message {
+    border: transparent;
+    border: 2px solid rgb(4, 7, 133)
+}
+
+.send {
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 3% 3%;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, rgb(80, 18, 194), rgb(3, 109, 231), rgb(218, 23, 23));
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s linear;
+}
+
+.send:hover {
+    background-position: 100% 0%;
+    transition: all 0.5s linear;
+}
+
+@media screen and (max-width:550px) {
+    .form {
+        width: 450px
+    }
+}
+
+@media screen and (max-width:425px) {
+    .form {
+        width: 380px
+    }
+}
+
+@media screen and (max-width:375px) {
+    .form {
+        width: 330px
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .form {
+        margin-left: -5%;
+        width: 318px
+    }
+}
