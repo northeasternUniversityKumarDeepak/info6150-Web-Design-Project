@@ -1,0 +1,37 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+    /* margin-bottom: 1 rem; */
+}
+.nav-link-black {
+    color: black;
+}
+/* .custom-container {
+    margin: 0;
+    padding: 0;
+} */
+.custom-margin {
+    margin-bottom: 40px; 
+    margin-top: 20px; 
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+body{
+    background-size: cover;
+    /* margin-bottom: 20px; */
+}
+
+.card .badge {
+    background-color: #06a7c7; /* Customize the badge background color */
+    color: rgb(236, 232, 232); /* Customize the badge text color */
+    font-size: 14px; /* Customize the badge font size */
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
